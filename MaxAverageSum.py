@@ -3,7 +3,7 @@
 arr = [1,12,-5,-6,50,3]
 k = 4
 result = []
-for i in range(len(arr)-k):
+for i in range(len(arr)-k+1):
     sum = 0
     for j in range (i,i+k):
         sum += arr[j]
